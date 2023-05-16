@@ -1,0 +1,45 @@
+
+
+
+
+.paw-button .text svg {
+  --background: var(--heart-background);
+  --shadow-light: transparent;
+  --shadow-dark: transparent;
+  width: 21px;
+  height: 19px;
+  -webkit-transform: translateX(var(--x));
+          transform: translateX(var(--x));
+}
+
+
+html {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+}
+
+* {
+  box-sizing: inherit;
+}
+*:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  font-family: 'Roboto', Arial;
+  justify-content: center;
+  align-items: center;
+  background: #fff;
+}
+body .dribbble {
+  position: fixed;
+  display: block;
+  right: 20px;
+  bottom: 20px;
+}
+body .dribbble img {
+  display: block;
+  height: 28px;
+}
